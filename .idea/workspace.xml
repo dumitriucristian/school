@@ -1,7 +1,449 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e8c6ae6-dcfa-4d4d-b0d5-0fafb47bd211" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/htdocs/themes/school/layouts/main.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/school.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/school.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/ServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/ServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/assets/css/october.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/assets/css/october.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/october-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/october-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/october.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/october.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/october.navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/october.navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/october.scrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/october.scrollbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/october.sidenav-tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/october.sidenav-tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/october.sidepaneltab.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/october.sidepaneltab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/vendor/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/assets/js/vendor/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/assets/less/controls/alert.less" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/assets/less/controls/alert.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/assets/less/controls/treeview.less" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/assets/less/controls/treeview.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/assets/less/layout/layout.less" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/assets/less/layout/layout.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/assets/less/layout/mainmenu.less" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/assets/less/layout/mainmenu.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/FormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/FormController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/ImportExportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/ImportExportController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/ListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/ListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/RelationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/RelationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/ReorderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/ReorderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/relationcontroller/partials/_manage_list.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/relationcontroller/partials/_manage_list.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/relationcontroller/partials/_view.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/behaviors/relationcontroller/partials/_view.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/classes/AuthManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/classes/AuthManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/classes/BackendController.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/classes/BackendController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/classes/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/classes/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/classes/ControllerBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/classes/ControllerBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/classes/FormField.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/classes/FormField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/classes/FormWidgetBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/classes/FormWidgetBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/classes/ListColumn.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/classes/ListColumn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/classes/NavigationManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/classes/NavigationManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/classes/ReportWidgetBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/classes/ReportWidgetBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/classes/WidgetManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/classes/WidgetManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/controllers/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/controllers/Auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/controllers/Files.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/controllers/Files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/controllers/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/controllers/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/controllers/auth/reset.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/controllers/auth/reset.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/controllers/index/config_dashboard.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/controllers/index/config_dashboard.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/DataTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/DataTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/DatePicker.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/DatePicker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/FileUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/FileUpload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/MediaFinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/MediaFinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/RecordFinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/RecordFinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/Repeater.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/Repeater.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/RichEditor.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/RichEditor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/codeeditor/assets/css/codeeditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/codeeditor/assets/css/codeeditor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/colorpicker/assets/js/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/colorpicker/assets/js/colorpicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/colorpicker/partials/_colorpicker.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/colorpicker/partials/_colorpicker.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/datepicker/partials/_datepicker.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/datepicker/partials/_datepicker.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/fileupload/assets/css/fileupload.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/fileupload/assets/css/fileupload.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/fileupload/assets/js/fileupload.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/fileupload/assets/js/fileupload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/fileupload/partials/_config_form.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/fileupload/partials/_config_form.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/markdowneditor/partials/_markdowneditor.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/markdowneditor/partials/_markdowneditor.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/mediafinder/assets/js/mediafinder.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/mediafinder/assets/js/mediafinder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/mediafinder/partials/_file_single.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/mediafinder/partials/_file_single.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/mediafinder/partials/_image_single.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/mediafinder/partials/_image_single.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/nestedform/assets/css/nestedform.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/nestedform/assets/css/nestedform.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/repeater/assets/css/repeater.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/repeater/assets/css/repeater.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/repeater/assets/js/repeater.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/repeater/assets/js/repeater.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/repeater/partials/_repeater.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/repeater/partials/_repeater.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/repeater/partials/_repeater_item.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/repeater/partials/_repeater_item.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/css/richeditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/css/richeditor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/js/build-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/js/build-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/js/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/js/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/js/plugins/mediamanager.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/js/plugins/mediamanager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/js/plugins/pagelinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/js/plugins/pagelinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/js/richeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/js/richeditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/less/_froala.less" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/less/_froala.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/less/richeditor.less" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/less/richeditor.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/bs.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/bs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/en_ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/en_ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/en_gb.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/en_gb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/me.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/me.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/nb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/pt_br.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/pt_br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/pt_pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/pt_pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/ua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/zh_cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/zh_cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/zh_tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/zh_tw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/lang/ar/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/lang/ar/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/lang/en/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/lang/en/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/lang/es-ar/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/lang/es-ar/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/lang/fi/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/lang/fi/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/lang/fr/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/lang/fr/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/lang/hu/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/lang/hu/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/lang/tr/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/lang/tr/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/layouts/_head.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/layouts/_head.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/layouts/_mainmenu.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/layouts/_mainmenu.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/layouts/_sidenav.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/layouts/_sidenav.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/layouts/auth.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/layouts/auth.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/layouts/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/layouts/default.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/models/BrandSetting.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/models/BrandSetting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/models/brandsetting/fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/models/brandsetting/fields.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/traits/ErrorMaker.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/traits/ErrorMaker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/views/access_denied.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/views/access_denied.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/views/mail/invite.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/views/mail/invite.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/Filter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/Form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/Lists.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/Lists.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/MediaManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/MediaManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/ReportContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/ReportContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/Table.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/Table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/filter/partials/_scope_text.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/filter/partials/_scope_text.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/form/partials/_field_balloon-selector.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/form/partials/_field_balloon-selector.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/form/partials/_field_checkboxlist.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/form/partials/_field_checkboxlist.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/form/partials/_field_dropdown.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/form/partials/_field_dropdown.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/form/partials/_field_number.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/form/partials/_field_number.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/form/partials/_field_radio.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/form/partials/_field_radio.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/form/partials/_section.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/form/partials/_section.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/lists/partials/_list_head_row.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/lists/partials/_list_head_row.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/mediamanager/assets/css/mediamanager.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/mediamanager/assets/css/mediamanager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/reportcontainer/assets/css/reportcontainer.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/reportcontainer/assets/css/reportcontainer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/reportcontainer/assets/js/reportcontainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/reportcontainer/assets/js/reportcontainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/backend/widgets/reportcontainer/assets/less/reportcontainer.less" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/backend/widgets/reportcontainer/assets/less/reportcontainer.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/assets/js/october.dragcomponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/assets/js/october.dragcomponents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/classes/CmsCompoundObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/classes/CmsCompoundObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/classes/CmsException.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/classes/CmsException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/classes/CodeParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/classes/CodeParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/classes/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/classes/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/classes/Theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/classes/Theme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/controllers/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/controllers/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/controllers/ThemeOptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/controllers/ThemeOptions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/controllers/Themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/controllers/Themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/lang/fi/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/lang/fi/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/lang/tr/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/lang/tr/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/ComponentNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/ComponentNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/ComponentTokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/ComponentTokenParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/ContentNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/ContentNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/ContentTokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/ContentTokenParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/DebugExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/DebugExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/DefaultNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/DefaultNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/DefaultTokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/DefaultTokenParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/Extension.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/Extension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/FlashNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/FlashNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/FlashTokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/FlashTokenParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/FrameworkNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/FrameworkNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/FrameworkTokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/FrameworkTokenParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/Loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/Loader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/PageNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/PageNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/PageTokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/PageTokenParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/PartialNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/PartialNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/PartialTokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/PartialTokenParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/PlaceholderNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/PlaceholderNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/PlaceholderTokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/PlaceholderTokenParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/PutNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/PutNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/PutTokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/PutTokenParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/ScriptsNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/ScriptsNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/ScriptsTokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/ScriptsTokenParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/StylesNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/StylesNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/twig/StylesTokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/twig/StylesTokenParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/widgets/AssetList.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/widgets/AssetList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/widgets/assetlist/assets/js/assetlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/widgets/assetlist/assets/js/assetlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/cms/widgets/componentlist/partials/_items.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/cms/widgets/componentlist/partials/_items.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/ServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/ServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/css/framework.extras-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/css/framework.extras-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/css/framework.extras.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/css/framework.extras.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/eventlogs/exception-beautifier.links.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/eventlogs/exception-beautifier.links.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/framework-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/framework-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/framework.combined-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/framework.combined-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/framework.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/framework.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.be.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.be.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.da.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.de.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.el.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.en-au.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.en-ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.en-ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.en-gb.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.en-gb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.es.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.et.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.fr-ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.fr-ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.id.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.it.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.lv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.pt-br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/js/lang/lang.zh-tw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/less/framework.extras.less" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/less/framework.extras.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/docs/popup.md" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/docs/popup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/drag.scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/drag.scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/filter.dates.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/filter.dates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/filter.numbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/filter.numbers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/input.preset.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/input.preset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/input.trigger.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/input.trigger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/inspector.editor.dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/inspector.editor.dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/loader.cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/loader.cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/js/select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/less/form.less" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/less/form.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/less/list.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/less/popover.less" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/less/popover.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/less/toolbar.less" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/less/toolbar.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/storm-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/storm-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/storm.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/storm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/vendor/modernizr/modernizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/vendor/modernizr/modernizr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/vendor/pikaday/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/assets/ui/vendor/pikaday/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/classes/CombineAssets.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/classes/CombineAssets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/classes/ErrorHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/classes/ErrorHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/classes/MarkupManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/classes/MarkupManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/classes/MediaLibrary.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/classes/MediaLibrary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/classes/SystemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/classes/SystemController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/classes/UpdateManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/classes/UpdateManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/classes/VersionManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/classes/VersionManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/console/OctoberEnv.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/console/OctoberEnv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/console/OctoberInstall.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/console/OctoberInstall.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/console/PluginInstall.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/console/PluginInstall.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/controllers/Updates.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/controllers/Updates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/controllers/requestlogs/_referer_field.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/controllers/requestlogs/_referer_field.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/controllers/updates/details.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/controllers/updates/details.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/controllers/updates/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/controllers/updates/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/lang/el/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/lang/el/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/lang/en/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/lang/en/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/lang/fi/client.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/lang/fi/client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/lang/fi/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/lang/fi/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/lang/fi/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/lang/fi/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/lang/hu/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/lang/hu/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/lang/ru/client.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/lang/ru/client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/lang/tr/client.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/lang/tr/client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/lang/tr/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/lang/tr/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/lang/tr/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/lang/tr/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/models/EventLog.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/models/EventLog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/models/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/models/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/models/RequestLog.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/models/RequestLog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/partials/_settings_menu_items.htm" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/partials/_settings_menu_items.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/traits/AssetMaker.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/traits/AssetMaker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/traits/ConfigMaker.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/traits/ConfigMaker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/twig/Engine.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/twig/Engine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/twig/Extension.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/twig/Extension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/twig/Loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/twig/Loader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/twig/MailPartialNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/twig/MailPartialNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/modules/system/twig/MailPartialTokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/modules/system/twig/MailPartialTokenParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/PluginTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/PluginTestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/fixtures/plugins/october/tester/updates/version.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/fixtures/plugins/october/tester/updates/version.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/unit/backend/models/ExportModelTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/unit/backend/models/ExportModelTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/unit/backend/models/ImportModelTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/unit/backend/models/ImportModelTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/unit/cms/classes/CmsExceptionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/unit/cms/classes/CmsExceptionTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/unit/cms/classes/ControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/unit/cms/classes/ControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/unit/plugins/database/HasManyModelTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/unit/plugins/database/HasManyModelTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/unit/system/classes/CombineAssetsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/unit/system/classes/CombineAssetsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/unit/system/classes/MarkupManagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/unit/system/classes/MarkupManagerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/unit/system/classes/PluginManagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/unit/system/classes/PluginManagerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/unit/system/classes/VersionManagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/unit/system/classes/VersionManagerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/tests/unit/system/traits/AssetMakerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/tests/unit/system/traits/AssetMakerTest.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/htdocs/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="theme.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/themes/school/theme.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/htdocs/themes/school/layouts/main.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/themes/demo/theme.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/htdocs/themes/school/pages/home.htm" />
+        <option value="$PROJECT_DIR$/htdocs/themes/school/layouts/main.htm" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/htdocs/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/linkorb/jsmin-php" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/composer" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/october/rain" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpunit/phpunit-selenium" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/meyfa/phpunit-assert-gd" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/erusev/parsedown-extra" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/jenssegers/date" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/wikimedia/composer-merge-plugin" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/kriswallsmith/assetic" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/oyejorge/less.php" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/league/csv" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/leafo/scssphp" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/symfony/polyfill-php72" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-323" />
@@ -9,9 +451,209 @@
     <option name="width" value="1920" />
     <option name="height" value="1054" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e8c6ae6-dcfa-4d4d-b0d5-0fafb47bd211" name="Default" comment="" />
+      <created>1550996966478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550996966478</updated>
+      <workItem from="1550996981030" duration="2690000" />
+      <workItem from="1552109770385" duration="1326000" />
+      <workItem from="1557043776541" duration="317000" />
+      <workItem from="1557044110794" duration="1077000" />
+      <workItem from="1557046341257" duration="972000" />
+      <workItem from="1557248727458" duration="2159000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8541000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1216" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37012988" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/school/theme.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/liath-chamy/theme.yaml" />
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/liath-chamy/version.yaml" />
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/liath-chamy/config/_load_file.htm" />
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/liath-chamy/config/fields.yaml" />
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/liath-chamy/layouts/main.htm" />
+    <entry file="file://$PROJECT_DIR$/htdocs/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="33" column="75" lean-forward="true" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/liath-chamy/layouts/main.htm" />
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/liath-chamy/config/fields.yaml" />
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/liath-chamy/config/_load_file.htm" />
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/liath-chamy/version.yaml" />
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/liath-chamy/theme.yaml" />
+    <entry file="file://$PROJECT_DIR$/htdocs/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/demo/theme.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/school/theme.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/school/pages/home.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/themes/school/layouts/main.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
