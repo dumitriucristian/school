@@ -1,14 +1,33 @@
 [staticPage]
 useContent = 1
 default = 0
+
+[staticMenu]
+code = "main"
 ==
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
+        <title>{{ this.page.title }}</title>
+        <title>{{ this.page.meta_description }}</title>
     </head>
     <body>
-        {% component 'staticPage' %}
+        <header>
+            <p>Scoala Generala 109 - <span>Serban Voda </span></p>
+        </header>
+        <nav>
+            <ul> 
+                {% for item in staticMenu.menuItems %}
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                {% endfor %}
+             </ul>
+        </nav>
+        <content>
+        
+        {% page %}
+        
+        </content>
         <footer>
             Here will be the footer
         </footer>
