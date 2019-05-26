@@ -10,26 +10,94 @@ code = "main"
     <head>
         <meta charset="UTF-8">
         <title>{{ this.page.title }}</title>
-        <title>{{ this.page.meta_description }}</title>
+        <meta name="description" content="{{ this.page.meta_description }}" >
+        <link href="/themes/school/assets/css/main.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header>
-            <p>Scoala Generala 109 - <span>Serban Voda </span></p>
+            <div id="identity">
+                <figure>
+                    <img src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30154826/1821.png" width="100">
+                </figure>
+
+                <p>Scoala Gimnaziala 109 - <span>Serban Voda </span></p>
+            </div>
+
+            <nav id="main-menu">
+                <ul>
+                    {% for item in staticMenu.menuItems %}
+                    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                    {% endfor %}
+                 </ul>
+            </nav>
         </header>
-        <nav>
-            <ul> 
-                {% for item in staticMenu.menuItems %}
-                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-                {% endfor %}
-             </ul>
-        </nav>
-        <content>
-        
-        {% page %}
-        
-        </content>
+        <div class="main-wrapper">
+            <div class="left-content">
+                {% page %}
+
+            </div>
+            <aside>
+                here is the right sidebar
+            </aside>
+
+        </div>
+
         <footer>
-            Here will be the footer
+            <div id="first-footer" >
+                <div>
+                    <h2>Informatii despre noi</h2>
+                    <p>Adresa: </p>
+                    <p>Email: </p>
+                    <p>Telefon: </p>
+                </div>
+                <div>
+                    <h2>Link-uri utile</h2>
+                    <p><a href="http://localhost/cirumscriptia-scolara">Circumscriptia scolara</a></p>
+                    <p><a href="#">Unu</a></p>
+                    <p><a href="#">Unu</a></p>
+                    <p><a href="#">Unu</a></p>
+                    <p><a href="#">Unu</a></p>
+                    <p><a href="#">Unu</a></p>
+                    <p><a href="#">Unu</a></p>
+
+                </div>
+                <div>
+                    <h2>Reteta succesului</h2>
+                    <p>a: </p>
+                    <p>Emabil: </p>
+                    <p>Telefson: </p>
+                </div>
+            </div>
+            <div id="second-footer" >
+                <section class="sponsors-wrapper">
+                    <h2>Sponsorii nostri</h2>
+                    <section class="sponsors">
+                        <figure class="sponsor">
+                            <img src="https://picsum.photos/150?random=1">
+                        </figure>
+                        <figure class="sponsor">
+                            <img src="https://picsum.photos/150?random=2">
+                        </figure>
+                        <figure class="sponsor">
+                            <img src="https://picsum.photos/150?random=3">
+                        </figure>
+                        <figure class="sponsor">
+                            <img src="https://picsum.photos/150?random=4">
+                        </figure>
+                        <figure class="sponsor">
+                            <img src="https://picsum.photos/150?random=5">
+                        </figure>
+                        <figure class="sponsor">
+                            <img src="https://picsum.photos/150?random=6">
+                        </figure>
+                    </section>
+                </section>
+
+            </div>
+            <div id="third-footer" >
+                <p>Copiryght@2018</p>
+            </div>
         </footer>
     </body>
 </html>
