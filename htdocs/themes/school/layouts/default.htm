@@ -3,16 +3,36 @@ useContent = 1
 default = 1
 
 [links]
+
+[session]
+security = "all"
+
+[sponsors]
+
+[schools]
 ==
 <!Doctype html>
     <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Free Web tutorials">
+      <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+      <meta name="author" content="John Doe">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
     <body>
+        <div id="header">
+        </div>
+        <div id="content" >
+            {% page %}
+        </div>
         
         <p>This is a test</p>
         <div id="footer">
             <p>here is footer</p>
             {% component 'links' %}
+            {% component 'sponsors' %}
+            {% component 'schools' %}
+          
         </div>
     <body>
 </html>

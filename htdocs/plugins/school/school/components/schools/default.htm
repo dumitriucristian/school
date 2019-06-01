@@ -1,0 +1,10 @@
+{% set schools = __SELF__.schools %}
+<ul>
+
+    {% for school in schools %}
+
+    <li>{{ school.address}}</li>
+    <li>{{ school.telefon}}</li>
+    {% endfor %}
+</ul>
+tt

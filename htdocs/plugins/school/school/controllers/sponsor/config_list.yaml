@@ -1,0 +1,12 @@
+list: $/school/school/models/sponsor/columns.yaml
+modelClass: school\School\Models\Sponsor
+title: Sponsor
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'school/school/sponsor/update/:id'

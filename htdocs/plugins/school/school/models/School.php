@@ -5,11 +5,10 @@ use Model;
 /**
  * Model
  */
-class Link extends Model
+class School extends Model
 {
     use \October\Rain\Database\Traits\Validation;
-
-
+    
     /*
      * Disable timestamps by default.
      * Remove this line if timestamps are defined in the database table.
@@ -20,7 +19,7 @@ class Link extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'school_school_link';
+    public $table = 'school_school_metadata';
 
     /**
      * @var array Validation rules

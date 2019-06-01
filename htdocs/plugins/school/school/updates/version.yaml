@@ -12,3 +12,18 @@
 1.0.5:
     - 'Updated table school_school_link'
     - builder_table_update_school_school_link.php
+1.0.6:
+    - 'Created table school_school_metadata'
+    - builder_table_create_school_school_metadata.php
+1.0.7:
+    - 'Updated table school_school_metadata'
+    - builder_table_update_school_school_metadata.php
+1.0.8:
+    - 'Created table school_school_sponsor'
+    - builder_table_create_school_school_sponsor.php
+1.0.9:
+    - 'Updated table school_school_sponsor'
+    - builder_table_update_school_school_sponsor.php
+1.0.10:
+    - 'Updated table school_school_sponsor'
+    - builder_table_update_school_school_sponsor_2.php

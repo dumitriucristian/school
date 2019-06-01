@@ -5,10 +5,9 @@ use Model;
 /**
  * Model
  */
-class Link extends Model
+class Sponsor extends Model
 {
     use \October\Rain\Database\Traits\Validation;
-
 
     /*
      * Disable timestamps by default.
@@ -20,11 +19,16 @@ class Link extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'school_school_link';
+    public $table = 'school_school_sponsor';
 
     /**
      * @var array Validation rules
      */
     public $rules = [
+    ];
+
+    /*Relations*/
+    public $attachOne = [
+        'logo' => 'System\Models\File'
     ];
 }

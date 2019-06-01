@@ -1,0 +1,7 @@
+columns:
+    address:
+        label: Adresa
+        type: text
+    telefon:
+        label: Telefon
+        type: text

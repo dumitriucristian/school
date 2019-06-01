@@ -1,0 +1,11 @@
+name: School
+modelClass: school\School\Models\School
+form: $/school/school/models/school/fields.yaml
+defaultRedirect: school/school/school
+create:
+    redirect: 'school/school/school/update/:id'
+    redirectClose: school/school/school
+update:
+    redirect: school/school/school
+    redirectClose: school/school/school
+preview: {  }

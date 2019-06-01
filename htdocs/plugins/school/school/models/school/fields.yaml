@@ -1,0 +1,9 @@
+fields:
+    address:
+        label: Adresa
+        span: auto
+        type: text
+    telefon:
+        label: Telefon
+        span: auto
+        type: text

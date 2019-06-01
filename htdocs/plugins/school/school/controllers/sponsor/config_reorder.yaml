@@ -1,0 +1,4 @@
+title: Sponsor
+modelClass: school\School\Models\Sponsor
+toolbar:
+    buttons: reorder_toolbar

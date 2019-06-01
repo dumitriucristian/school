@@ -2,10 +2,23 @@ plugin:
     name: 'school.school::lang.plugin.name'
     description: 'school.school::lang.plugin.description'
     author: shool
-    icon: oc-icon-adjust
+    icon: oc-icon-child
     homepage: ''
 navigation:
-    main-menu-item:
-        label: Link
-        url: school/school/link
-        icon: icon-life-ring
+    school:
+        label: 'School Management'
+        url: school/school/school
+        icon: icon-mortar-board
+        permissions:
+            - all
+        sideMenu:
+            links:
+                label: 'Footer links'
+                url: school/school/link
+                icon: icon-list
+                permissions:
+                    - all
+            sponsor:
+                label: Sponsor
+                url: school/school/sponsor
+                icon: icon-diamond

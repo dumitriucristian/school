@@ -1,0 +1,14 @@
+fields:
+    name:
+        label: 'Denumire Sponsor'
+        span: auto
+        type: text
+    logo:
+        label: logo
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

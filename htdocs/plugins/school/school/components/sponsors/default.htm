@@ -1,0 +1,9 @@
+{% set sponsors = __SELF__.sponsors %}
+<ul>
+    {% for sponsor in sponsors %}
+    <li>{{sponsor.name}}</li>
+      <img src="{{sponsor.logo.path}}" width="100" height="100">
+
+    {% endfor %}
+</ul>
+sss
