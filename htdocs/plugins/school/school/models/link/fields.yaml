@@ -1,0 +1,9 @@
+fields:
+    title:
+        label: 'Link title'
+        span: auto
+        type: text
+    url:
+        label: 'Link URL'
+        span: auto
+        type: text

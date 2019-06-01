@@ -1,0 +1,11 @@
+name: Link
+modelClass: school\School\Models\Link
+form: $/school/school/models/link/fields.yaml
+defaultRedirect: school/school/link
+create:
+    redirect: 'school/school/link/update/:id'
+    redirectClose: school/school/link
+update:
+    redirect: school/school/link
+    redirectClose: school/school/link
+preview: {  }

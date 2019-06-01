@@ -1,0 +1,11 @@
+columns:
+    title:
+        label: 'Link tite'
+        type: text
+        searchable: true
+        sortable: true
+    url:
+        label: 'Lnk url'
+        type: text
+        searchable: true
+        sortable: true

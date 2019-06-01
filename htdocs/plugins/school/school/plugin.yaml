@@ -1,0 +1,11 @@
+plugin:
+    name: 'school.school::lang.plugin.name'
+    description: 'school.school::lang.plugin.description'
+    author: shool
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Link
+        url: school/school/link
+        icon: icon-life-ring

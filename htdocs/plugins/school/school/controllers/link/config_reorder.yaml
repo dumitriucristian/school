@@ -1,0 +1,4 @@
+title: Link
+modelClass: school\School\Models\Link
+toolbar:
+    buttons: reorder_toolbar

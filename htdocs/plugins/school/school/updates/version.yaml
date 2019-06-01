@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Drop table school_school_links'
+    - builder_table_delete_school_school_links.php
+1.0.3:
+    - 'Drop table school_school_'
+    - builder_table_delete_school_school_.php
+1.0.4:
+    - 'Created table school_school_link'
+    - builder_table_create_school_school_link.php
+1.0.5:
+    - 'Updated table school_school_link'
+    - builder_table_update_school_school_link.php
