@@ -1,0 +1,6 @@
+{% set links = __SELF__.links %}
+<ul>
+    {% for link in links %}
+        <li>{{link.title}} {{link.url}}</li>
+    {% endfor %}
+</ul>
