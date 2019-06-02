@@ -6,33 +6,55 @@ default = 1
 
 [session]
 security = "all"
+redirect = "home"
 
 [sponsors]
 
 [schools]
+
+[account]
+redirect = "home"
+paramCode = "code"
+forceSecure = 0
 ==
-<!Doctype html>
+<!DOCTYPE  html>
+<html>
     <head>
       <meta charset="UTF-8">
       <meta name="description" content="Free Web tutorials">
       <meta name="keywords" content="HTML,CSS,XML,JavaScript">
       <meta name="author" content="John Doe">
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head>
+    </head>
     <body>
+    test
+
         <div id="header">
+            {% if user %}
+            <p>Hello {{ user.name }}</p>
+            <a data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>
+            {% else %}
+            <p>Nobody is logged in</p>
+            {% component 'account' %}
+            {% endif %}
         </div>
         <div id="content" >
             {% page %}
         </div>
-        
+
         <p>This is a test</p>
         <div id="footer">
             <p>here is footer</p>
             {% component 'links' %}
             {% component 'sponsors' %}
             {% component 'schools' %}
-          
+
         </div>
-    <body>
+    {% framework %}
+    </body>
+
 </html>
