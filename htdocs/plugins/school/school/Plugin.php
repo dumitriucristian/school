@@ -2,6 +2,8 @@
 
 use Backend\Facades\Backend;
 use System\Classes\PluginBase;
+use Mail;
+use Event;
 
 class Plugin extends PluginBase
 {
@@ -18,24 +20,15 @@ class Plugin extends PluginBase
     {
     }
 
-    /*
-    public function registerNavigation()
-    {
-        return [
-            'school' => [
-                'label'         => 'School Management',
-                'url'           => Backend::url('/'),
-                'icon'          => 'icon-pencil',
-                'permissions'   => ['*'],
+    public function boot(){
 
-                'sideMenu'      => [
-                    'label'         => 'Links',
-                    'url'           => Backend::url('/'),
-                    'icon'          => 'icon-pencil',
-                    'permissions'   => ['*'],
-                ]
-            ]
-        ];
+        Mail::pretend();
+
+        Event::listen('rainlab.user.register', function($user) {
+           // die('event happend');
+            // Code to register $user->email to mailing list
+            Mail::sendTo('dumitriucirstian@yahoo.com', 'new user registerd today');
+
+        });
     }
-    */
 }
